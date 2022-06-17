@@ -3,6 +3,7 @@ package videogame.main;
 
 public class Main{
     public static void main(String[] args){
-        System.out.println("WELCOME!!");
+        //start game
+        GameLogic.startGame();
     }
 }
