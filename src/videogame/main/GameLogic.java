@@ -16,7 +16,7 @@ public class GameLogic {
         return input;
     }
 
-    //to clear console
+    //clear console
     public static void clearConsole(){
         for(int i=0;i<100;i++)
             System.out.println();
