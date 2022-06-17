@@ -6,6 +6,10 @@ public class GameLogic {
     static Player player;
 
     public static boolean isRunning;
+
+    //Story elements
+    public static int place = 0,act;
+    public static String[] places={};
     public static int readInt(String prompt, int userChoices) {
         int input;
         do {
@@ -106,6 +110,10 @@ public class GameLogic {
             if(input==1)
                 nameSet=true;
         }while(!nameSet);
+
+        //print story intro
+        Story.printIntro();
+
         //creating player object with name
         player=new Player(name);
 
