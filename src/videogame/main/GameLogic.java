@@ -22,6 +22,26 @@ public class GameLogic {
             System.out.println();
     }
 
+    //print separator
+    public static void printSeperator(int n){
+        for(int i=0;i<n;i++)
+            System.out.printf("-");
+        System.out.println();
+    }
+
+    //print Heading
+    public static void printHeading(String title){
+        printSeperator(30);
+        System.out.println(title);
+        printSeperator(30);
+    }
+
+    //method to stop the game until user enters anything
+    public static void anythingToContinue(){
+        System.out.println("\nEnter anything to continue...");
+        scanner.next();
+    }
+
     public static void characterInfo(){
         clearConsole();
         printHeading("CHARACTER INFO");
