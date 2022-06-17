@@ -2,6 +2,10 @@ package videogame.main;
 import java.util.Scanner;
 public class GameLogic {
     static Scanner scanner = new Scanner(System.in);
+
+    static Player player;
+
+    public static boolean isRunning;
     public static int readInt(String prompt, int userChoices) {
         int input;
         do {
@@ -65,6 +69,9 @@ public class GameLogic {
         anythingToContinue();
     }
 
+    public static void continueJourney(){
+
+    }
     public static void printMenu(){
         clearConsole();
         printHeading(places[place]);
