@@ -7,7 +7,7 @@ public abstract class Character
     public int maxHp,hp,xp;
 
     //Constructor for character
-    public Character(Srting name,int maxHp,int xp)
+    public Character(String name,int maxHp,int xp)
     {
         this.name=name;
         this.maxHp=maxHp;
