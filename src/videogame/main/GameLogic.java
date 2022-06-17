@@ -1,7 +1,5 @@
 package videogame.main;
 
+public class GameLogic {
 
-public class Main {
-
-//
 }
